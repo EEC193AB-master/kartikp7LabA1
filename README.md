@@ -147,16 +147,14 @@ Finally, utilize the SORT tracker to assign IDs to bounding boxes to track and c
 
 This is an individual assignment, so you must work alone. Please avoid excessive collaboratation. Please do not use code from SORT repo, only the [sort.py](src/sort.py) provided in your repository.
 
-### Program Corectness
-
-#### Phase 1 correctness
+#### Phase 1 correctness (50%)
 Your script will be run on a new set of images and directory of images. Full functionality will be tested to make sure the correct information is reported from your script. You can easily identify and test your output by observing the given images. You can visually check the images and count the bounding boxes, check the class names.
 
-#### Phase 2 correctness
+#### Phase 2 correctness (40%)
 The TA program detects total 107 people at the end of the video. The sample video also provides a working demo. During Lab walkthrough, the TA will go over the output video and what to expect.
 The colors, location of counter can vary as long as all information is correct. you can test and debug your code by saving some initial frames.
 
-### Program Usability & Design
+#### Program Usability & Design (10%)
 
 Please make sure your programs are well commented and readable. Make sure to adress invalid CLI inputs or missing inputs. If the programs are used incorrectly, your programs should exit safetly and output the correct use. Have functions wherever necessary for readability.
 
