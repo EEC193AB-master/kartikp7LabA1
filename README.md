@@ -148,7 +148,6 @@ Finally, utilize the SORT tracker to assign IDs to bounding boxes to track and c
 This is an individual assignment, so you must work alone. Please avoid excessive collaboratation. 
 
 ### Program Corectness
-Feel Free to confirm with the TAs if your program outputs are as expected.
 
 #### Phase 1 correctness
 Your script will be run on a new set of images and directory of images. Full functionality will be tested to make sure the correct information is reported from your script. You can easily identify and test your output by observing the given images. You can visually check the images and count the bounding boxes, check the class names.
