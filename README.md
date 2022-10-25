@@ -124,7 +124,7 @@ The required inputs to `yolo_counter.py` will be same as Phase 1, except we take
 
 The output ***must*** be the annotated video saved as `mot_vid/MOTS20-09-result.mp4`.
 
-The expected result video should look like this:
+The expected result video should look like this (not full video shown):
 ![](https://github.com/EEC193AB-master/kartikp7LabA1/blob/main/mot_vid/MOTS20-09-output.gif)
 
 ### Phase 2 Suggested Steps
