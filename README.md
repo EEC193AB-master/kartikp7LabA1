@@ -184,5 +184,3 @@ Kartik Patwari, Jeff Lai, and Chen-Nee Chuah
 [OpenCV: YOLO on videos](https://docs.opencv.org/4.x/da/d9d/tutorial_dnn_yolo.html)
 
 [SORT: MOT tracker](https://github.com/abewley/sort)
-
-[MOT challenge video](https://motchallenge.net/vis/MOTS20-09/raw/)
