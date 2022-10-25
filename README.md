@@ -111,7 +111,7 @@ sample.jpg => Car: 1
 elephants.jpg => Elephant: 2
 ```
 
-## Phase 2: YOLO Object detection on videos with MOT
+## Phase 2: YOLO Object detection & MOT on videos
 
 For this phase, you will be working on `yolo_counter.py` which takes in a video and counts the number of people (using Multi-Object Tracking code). You are not expected to code the MOT algorithm, instead we will utilize an open-source code called SORT. The required code is already in your repository (`sort.py`), so please do not clone the SORT repo and do not modify `sort.py`. You will need to go through the [SORT](https://github.com/abewley/sort) git repo to understand how to call the MOT tracker.
 The input video is in `mot_vid/` folder, called `mot_vid/MOTS20-09-raw.mp4`. 
