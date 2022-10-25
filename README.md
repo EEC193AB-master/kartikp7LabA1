@@ -72,7 +72,7 @@ yolo_img_detector.py <inputs> -inf
 ```
 and the possible output can be:
 ```
-Average Inference Time: 2.61351 seconds
+Average Inference Time: 0.613 seconds
 ```
 Another example:
 ```
@@ -80,7 +80,7 @@ yolo_img_detector.py <inputs> -inf -classes_all
 ```
 and the possible output can be:
 ```
-Average Inference Time: 2.61351 seconds
+Average Inference Time: 0.613 seconds
 Total Number of Objects/Classes Detected: 1
 ```
 
@@ -99,7 +99,7 @@ output: ```sample_out.jpg```
 For instance if you are to pass ```sample.jpg``` and ```img/elephants.jpg``` to your script, the results should look like this:
 
 ```
-Average Inference Time: 2.12312 seconds
+Average Inference Time: 0.125 seconds
 Total Number of Objects/Classes Detected: 3
 
 Total Detection Breakdown
