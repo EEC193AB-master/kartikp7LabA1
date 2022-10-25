@@ -18,7 +18,7 @@ wget https://pjreddie.com/media/files/yolov3.weights
 
 ## YOLO Tutorial
 
-The ```YOLO_OpenCV_Tutorial.ipynb``` contains the full inference pipeline and code to draw bounding boxes onto a given image using OpenCV & YOLOv3. 
+The [YOLO_OpenCV_Tutorial.ipynb](src/YOLO_OpenCV_Tutorial.ipynb) contains the full inference pipeline and code to draw bounding boxes onto a given image using OpenCV & YOLOv3. 
 The given code provides a way to feed an image and draw (on the same image) bounding boxes and confidence score. The tutorial is adapted from the [OpenCV tutorial](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). You will have to modify the code provided to complete Phase 1 & 2.
 
 ## Phase 1: YOLO Object Detection on Images 
