@@ -145,7 +145,7 @@ Finally, utilize the SORT tracker to assign IDs to bounding boxes to track and c
 - Program correctness: 90%
 - Program usability & design: 10%
 
-This is an individual assignment, so you must work alone. Please avoid excessive collaboratation. Please do not use code from SORT repo, only the `sort.py` provided in your repository.
+This is an individual assignment, so you must work alone. Please avoid excessive collaboratation. Please do not use code from SORT repo, only the [sort.py](src/sort.py) provided in your repository.
 
 ### Program Corectness
 
