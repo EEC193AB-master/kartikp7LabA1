@@ -23,7 +23,7 @@ The given code provides a way to feed an image and draw (on the same image) boun
 
 ## Phase 1: YOLO Object Detection on Images 
 
-Your task is to complete the ```yolo_img_detector.py``` to perform object detection (with YOLOv3). This script must be able to take in path to image/images/folder of images and perform YOLO to report the following main tasks:
+Your task is to complete the [yolo_img_detector.py](src/yolo_img_detector.py) to perform object detection (with YOLOv3). This script must be able to take in path to image/images/folder of images and perform YOLO to report the following main tasks:
 
 - The average inference time (across all input images specified)
 - The total number of classes detected
@@ -113,10 +113,10 @@ elephants.jpg => Elephant: 2
 
 ## Phase 2: YOLO Object detection & MOT on videos
 
-For this phase, you will be working on `yolo_counter.py` which takes in a video and counts the number of people (using Multi-Object Tracking code). You are not expected to code the MOT algorithm, instead we will utilize an open-source code called SORT. The required code is already in your repository (`sort.py`), so please do not clone the SORT repo and do not modify `sort.py`. You will need to go through the `sort.py` understand how to call the MOT tracker (or see `sort.md`).
+For this phase, you will be working on [yolo_counter.py](src/yolo_counter.py) which takes in a video and counts the number of people (using Multi-Object Tracking code). You are not expected to code the MOT algorithm, instead we will utilize an open-source code called SORT. The required code is already in your repository ([sort.py](src/sort.py)), so please do not clone the SORT repo and do not modify `sort.py`. You will need to go through the [sort.py](src/sort.py) and [sort.md](sort.md) understand how to call the MOT tracker.
 The input video is in `mot_vid/` folder, called `mot_vid/MOTS20-09-raw.mp4`. 
 
-The required inputs to `yolo_counter.py` will be same as Phase 1, except we take an input video instead of images:
+The required inputs to ```yolo_counter.py``` will be same as Phase 1, except we take an input video instead of images:
 - YOLO Weights file
 - YOLO config file
 - Labels (coco.names)
@@ -136,7 +136,7 @@ Start by porting your code from phase 1 to perform on video input and output/sav
 You will need to modify the code to only draw/annotate bounding boxes for people
 
 #### 3. Use MOT tracker to track & count
-Finally, utilize the SORT tracker to assign IDs to bounding boxes to track and count (see `sort.md` and `sort.py`) on how to use.
+Finally, utilize the SORT tracker to assign IDs to bounding boxes to track and count (see [sort.md](sort.md) and [sort.py](src/sort.py) on how to use SORT).
 
 ## Evaluation
 
