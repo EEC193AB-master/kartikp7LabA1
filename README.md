@@ -160,8 +160,6 @@ Please make sure your programs are well commented and readable. Make sure to adr
 
 ## Submission
 
-Due Date: November 4, 2022
-
 Graded files:
 - ```yolo_img_detector.py```
 - ```yolo_counter.py```
