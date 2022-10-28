@@ -124,7 +124,7 @@ The required inputs to ```yolo_counter.py``` will be same as Phase 1, except we 
 
 The output ***must*** be the annotated video saved as `mot_vid/MOTS20-09-result.mp4`. As your program runs, please also print out the frame number and processing time taken per frame (in s).
 
-The expected result video should look like this (or see [this](mot_vid/MOTS20-09-output.gif):
+The expected result video should look like[this](mot_vid/MOTS20-09-output.gif):
 ![](https://github.com/EEC193AB-master/kartikp7LabA1/blob/main/mot_vid/MOTS20-09-output.gif)
 
 ### Phase 2 Suggested Steps
