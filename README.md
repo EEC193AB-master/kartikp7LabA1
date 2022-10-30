@@ -13,7 +13,7 @@ All required files are provided except the pretrained weights (as they were too 
 ```
 wget https://pjreddie.com/media/files/yolov3.weights
 ```
-Or, you will find the weights at this location on the server (you can copy them but please do not move/remove them): ```/data/eec174/yolo_files/yolov3.weights```
+Or, you will find the weights at this location on the server (you can copy `yolov3.weights` but please do not move/remove them): ```/data/eec174/yolo_files/yolov3.weights```
 
 (Note: When submitting do not upload the weights!)
 
