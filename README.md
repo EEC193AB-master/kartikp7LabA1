@@ -9,7 +9,7 @@ The focus of this lab is to learn how to apply YOLO on images & videos. In Phase
 
 You are not required to use the server or docker for this lab. Choose whatever environment you are comfortable with. Please install all dependancies that are in `requirements.txt` (with either conda or pip). You can also work on the server directly if you want to (without docker container). 
 
-All required files are provided except the pretrained weights (as they were too large to upload on github). You will need to download the weights file in the `yolo_files` folder by using the following command:
+All required files are provided except the pretrained weights (as they were too large to upload on github). You will need to download the weights file (for phase 1 & 2) in the `yolo_files` folder by using the following command:
 
 ```
 wget https://pjreddie.com/media/files/yolov3.weights
@@ -25,7 +25,7 @@ You are provided with inital code to read and show [imgs/cat.jpg](imgs/cat.jpg).
 
 1. Use provided ground truth bounding box (`gt_box`) to add a green colored box on the image. Hint: use `cv2.rectangle()`
 2. Complete the `compute_iou()` function that computes intersection over union (IoU) given two input boxes. Hint: see lecture slides for Object Detection.
-3. You are given a `predictions` array with 4 predicted boxes. plot each of them individually on the image in rede, along with the ground truth on each image. As the titel of the image, please include the prediction number (1 - 4) and the IoU score.
+3. You are given a `predictions` array with 4 predicted boxes. plot each of them individually on the image in red, along with the ground truth on each image. As the title of the image, please include the prediction number (1 - 4) and the IoU score.
 
 Instructions are also provided in the notebook. Please see the expected output for pre-lab below:
 
@@ -174,7 +174,7 @@ Make sure your output matches the provided [kartik_prelab.png](kartik_prelab.png
 #### Phase 1 (30%)
 Your script will be run on a new set of images and directory of images. Full functionality will be tested to make sure the correct information is reported from your script. You can easily identify and test your output by observing the given images. You can visually check the images and count the bounding boxes, check the class names.
 
-#### Phase 2 correctness (40%)
+#### Phase 2 (40%)
 The TA program detects total 107 people at the end of the video. The sample video also provides a working demo. During Lab walkthrough, the TA will go over the output video and what to expect.
 The colors, location of counter can vary as long as all information is correct. you can test and debug your code by saving some initial frames.
 
