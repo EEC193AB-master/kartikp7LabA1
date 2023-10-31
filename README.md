@@ -24,7 +24,7 @@ Please make sure to complete and commit [PreLab.ipynb](PreLab.ipynb) before lab 
 You are provided with inital code to read and show [imgs/cat.jpg](imgs/cat.jpg), as well as its ground truth bounding box labels in `x, y, w, h` format. Please do not change the image. The prelab requires you to:
 
 1. Use provided ground truth bounding box (`gt_box`) to add a green colored box on the image.
-2. Complete the `compute_iou()` function that computes intersection over union (see lecture slides for Object Detection).
+2. Complete the `compute_iou()` function that computes intersection over union (IoU) given two input boxes. See lecture slides for Object Detection.
 3. You are given a `predictions` array with 4 predicted boxes. plot each of them individually on the image in rede, along with the ground truth on each image. As the titel of the image, please include the prediction number (1 - 4) and the IoU score.
 
 Instructions are also provided in the notebook. Please see the expected output for pre-lab below:
