@@ -7,7 +7,7 @@ The focus of this lab is to learn how to apply YOLO on images & videos. In Phase
 
 ## Environment Setup
 
-You are not required to use the server or docker for this lab. Please install all additional dependancies that are in `requirements.txt` (with either conda or pip). You can use the server if you wish directly (without docker). 
+You are not required to use the server or docker for this lab. Choose whatever environment you are comfortable with. Please install all dependancies that are in `requirements.txt` (with either conda or pip). You can also work on the server directly if you want to (without docker container). 
 
 All required files are provided except the pretrained weights (as they were too large to upload on github). You will need to download the weights file in the `yolo_files` folder by using the following command:
 
