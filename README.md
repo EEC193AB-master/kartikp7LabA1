@@ -1,5 +1,7 @@
 # EEC174 AY Project A1: Object Detection and Tracking
+# Instructions
 
+***Do not clone this repo.***
 Due Date: November 10, 2023
 
 The focus of this lab is to learn how to apply YOLO on images & videos. In Phase 1 you will learn to load the YOLOv3 model into OpenCV, create blobs for OpenCV, detect objects, draw bounding boxes, and add labels onto images. In Phase 2 you will use open-source MOT solutions with YOLO to perform object tracking on video inputs. Please read all the instructions carefully.
