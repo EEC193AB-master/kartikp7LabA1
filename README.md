@@ -23,7 +23,7 @@ Or, you will find the weights at this location on the server (you can copy `yolo
 Please make sure to complete and commit [PreLab.ipynb](PreLab.ipynb) before lab starts. Do not make any commits after.
 You are provided with inital code to read and show [imgs/cat.jpg](imgs/cat.jpg). You are also given the ground truth bounding box labels (`gt_box`) in `x, y, w, h` format. Please do not change the image. 
 
-***Note:*** The wrong image has been uploaded to your repos. please download [cat.jpg](cat.jpg) from this repo or slack, and update your pre-lab image from `cats.jpg` to `cat.jpg`.
+***Note:*** There is a typo in `PreLab.ipynb` Part 1. Please update `image_path` to `imgs/cat.jpg` (do not use `cats.jpg`). If you cannot find `cat.jpg` image in your repo, you can download it from [here](cat.jpg).
 
 The prelab requires you to:
 
