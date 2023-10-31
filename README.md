@@ -1,12 +1,12 @@
-# EEC174 AY Project A1: YOLO Object Detection and MOT
+# EEC174 AY Project A1: Object Detection and Tracking
 
-Due Date: November 4, 2022
+Due Date: November 10, 2023
 
 The focus of this lab is to learn how to apply YOLO on images & videos. In Phase 1 you will learn to load the YOLOv3 model into OpenCV, create blobs for OpenCV, detect objects, draw bounding boxes, and add labels onto images. In Phase 2 you will use open-source MOT solutions with YOLO to perform object tracking on video inputs. Please read all the instructions carefully.
 
 ## Environment Setup
 
-You can utilize the Lab 3 container (built from image ```eec174lab1-2```) or create an new container. Please install all additional dependancies that are in `requirements.txt` (with either conda or pip).
+You are not required to use the server or docker for this lab. Please install all additional dependancies that are in `requirements.txt` (with either conda or pip). You can use the server if you wish directly (without docker). 
 
 All required files are provided except the pretrained weights (as they were too large to upload on github). You will need to download the weights file in the `yolo_files` folder by using the following command:
 
@@ -16,6 +16,21 @@ wget https://pjreddie.com/media/files/yolov3.weights
 Or, you will find the weights at this location on the server (you can copy `yolov3.weights` but please do not move/remove them): ```/data/eec174/yolo_files/yolov3.weights```
 
 (Note: When submitting do not upload the weights!)
+
+## Pre-Lab: Bounding Boxes & IoU
+
+Please make sure to complete and commit [PreLab.ipynb](PreLab.ipynb) before lab starts. Do not make any commits after.
+You are provided with inital code to read and show [imgs/cat.jpg](imgs/cat.jpg), as well as its ground truth bounding box labels in `x, y, w, h` format. Please do not change the image. The prelab requires you to:
+
+1. Use provided ground truth bounding box (`gt_box`) to add a green colored box on the image.
+2. Complete the `compute_iou()` function that computes intersection over union (see lecture slides for Object Detection).
+3. You are given a `predictions` array with 4 predicted boxes. plot each of them individually on the image in rede, along with the ground truth on each image. As the titel of the image, please include the prediction number (1 - 4) and the IoU score.
+
+Instructions are also provided in the notebook. Please see the expected output for pre-lab below:
+
+![kartik_prelab.png](kartik_prelab.png)
+
+Please make sure to push `PreLab.ipynb` before lab starts on Nov 3.
 
 ## YOLO Tutorial
 
@@ -144,15 +159,20 @@ Finally, utilize the SORT tracker to assign IDs to bounding boxes to track and c
 
 ### Grade Breakdown
 
-- Program correctness: 90%
+- Pre-Lab: 10%
+- Phase 1: 35%
+- Phase 2: 45%
 - Program usability, readability & design: 10%
 
-This is an individual assignment, so you must work alone. Please avoid excessive collaboratation. Please do not use code from SORT repo, only the [sort.py](src/sort.py) provided in your repository.
+You are allowed to work in pairs for this assignment. Please avoid excessive collaboratation with other groups. Please do not use code from SORT repo, only the [sort.py](src/sort.py) provided in your repository.
 
-#### Phase 1 correctness (50%)
+#### Pre-Lab (10%)
+Make sure your output matches the provided [kartik_prelab.png](kartik_prelab.png) to recieve full credit.
+
+#### Phase 1 (35%)
 Your script will be run on a new set of images and directory of images. Full functionality will be tested to make sure the correct information is reported from your script. You can easily identify and test your output by observing the given images. You can visually check the images and count the bounding boxes, check the class names.
 
-#### Phase 2 correctness (40%)
+#### Phase 2 correctness (45%)
 The TA program detects total 107 people at the end of the video. The sample video also provides a working demo. During Lab walkthrough, the TA will go over the output video and what to expect.
 The colors, location of counter can vary as long as all information is correct. you can test and debug your code by saving some initial frames.
 
@@ -163,11 +183,10 @@ Please make sure your programs are well commented and readable. Make sure to adr
 ## Submission
 
 Graded files:
+- ```PreLab.ipynb```
 - ```yolo_img_detector.py```
 - ```yolo_counter.py```
 - Phase 2 output video
-
-Commits up to a week late will incur a -10% late penalty.
 
 ## Credits
 
@@ -182,3 +201,5 @@ Kartik Patwari, Jeff Lai, and Chen-Nee Chuah
 [OpenCV: YOLO on videos](https://docs.opencv.org/4.x/da/d9d/tutorial_dnn_yolo.html)
 
 [SORT: MOT tracker](https://github.com/abewley/sort)
+
+[MOT Challenge](https://motchallenge.net/)
