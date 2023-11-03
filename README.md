@@ -42,6 +42,16 @@ Please make sure to push `PreLab.ipynb` before lab starts on Nov 3.
 The [YOLO_OpenCV_Tutorial.ipynb](src/YOLO_OpenCV_Tutorial.ipynb) contains the full inference pipeline and code to draw bounding boxes onto a given image using OpenCV & YOLOv3. 
 The given code provides a way to feed an image and draw (on the same image) bounding boxes and confidence score. The tutorial is adapted from the [OpenCV tutorial](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). You will have to modify the code provided to complete Phase 1 & 2.
 
+If the following line throws an error:
+```python
+yolo_layers = [layers[i[0] - 1] for i in network.getUnconnectedOutLayers()]
+```
+
+Please replace it with:
+```python
+yolo_layers = ['yolo_82', 'yolo_94', 'yolo_106']
+```
+
 ## Phase 1: YOLO Object Detection on Images 
 
 Your task is to complete the [yolo_img_detector.py](src/yolo_img_detector.py) to perform object detection (with YOLOv3). This script must be able to take in path to image/images/folder of images and perform YOLO to report the following main tasks:
