@@ -142,6 +142,8 @@ sample.jpg => Car: 1
 elephants.jpg => Elephant: 2
 ```
 
+Please see the output of the TA code run over entire imgs/ folder [here](kartik_output_phase1.jpg)
+
 ## Phase 2: YOLO Object detection & MOT on videos
 
 For this phase, you will be working on [yolo_counter.py](src/yolo_counter.py) which takes in a video and counts the number of people (using Multi-Object Tracking code). You are not expected to code the MOT algorithm, instead we will utilize an open-source code called SORT. The required code is already in your repository ([sort.py](src/sort.py)), so please do not clone the SORT repo and do not modify `sort.py`. You will need to go through the [sort.py](src/sort.py) and [sort.md](sort.md) understand how to call the MOT tracker.
