@@ -142,7 +142,7 @@ sample.jpg => Car: 1
 elephants.jpg => Elephant: 2
 ```
 
-Please see the output of the TA code run over entire imgs/ folder [here](kartik_output_phase1.jpg)
+Please see the output of the TA code run over entire imgs/ folder [here](kartik_output_phase1.png)
 
 ## Phase 2: YOLO Object detection & MOT on videos
 
