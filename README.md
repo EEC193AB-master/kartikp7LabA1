@@ -161,6 +161,8 @@ The expected result video should look like[this](mot_vid/MOTS20-09-output.gif):
 
 ![](https://github.com/EEC193AB-master/kartikp7LabA1/blob/main/mot_vid/MOTS20-09-output.gif)
 
+With `probability_minimum = 0.5` and `threshold = 0.3` the expected total number of people counted is 107.
+
 ### Phase 2 Suggested Steps
 
 #### 1. YOLO on video input
