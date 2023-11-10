@@ -16,4 +16,5 @@ track_bbs_ids = mot_tracker.update(detections)
 ...
 ```
 
-SORT takes a bounding box in the centre form `[x,y,s,r]` and returns it in the form `[x1,y1,x2,y2]` where `x1,y1` is the top left and `x2,y2` is the bottom right.
+SORT takes a bounding box in format: `[x1,y1,x2,y2]` and will return `[x1,y1,x2,y2, tracker_ID]`
+Note: YOLO returns bounding boxes in different format than SORT expects.
